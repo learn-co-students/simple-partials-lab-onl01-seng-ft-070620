@@ -25,6 +25,7 @@ RSpec.describe "show_view" do
   end
 
   it "renders a students/student partial" do
+    # binding.pry
     view.lookup_context.prefixes = %w[students]
     assign(:classroom, classroom)
     assign(:student, classroom.oldest_student)
