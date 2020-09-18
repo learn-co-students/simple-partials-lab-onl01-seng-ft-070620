@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Use the `render` method to render partials
+1. Use the `render` method to render partials 
 2. Understand how the name of a partial turns into its filename
 3. Practice rendering partials in a different folder
 
